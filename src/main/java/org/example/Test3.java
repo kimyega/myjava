@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Test3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        toLowerTrim(sc);
+        lowerTrim(sc);
         sc.close();
     }
-    static void toLowerTrim(Scanner sc) {
+    static void lowerTrim(Scanner sc) {
         String a = sc.nextLine();
         String b = sc.nextLine();
         String result = (a + b).toLowerCase().replaceAll(" ", "");
