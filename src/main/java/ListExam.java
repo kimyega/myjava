@@ -27,6 +27,6 @@ public class ListExam {
             System.out.println("이름 : " + name);
         }
 
-        list.stream().forEach(System.out::println);
+        list.forEach(System.out::println);
     }
 }
